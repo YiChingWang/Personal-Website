@@ -1,0 +1,88 @@
+.global-nav__list {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+.global-nav__item {
+  grid-area: span 1;
+  justify-self: center;
+  align-self: center;
+}
+.global-nav__link {
+  padding: 8px 16px;
+
+  font-size: 1.1rem;
+  text-decoration: none;
+
+  color: #4923f4;
+
+  cursor: pointer;
+}
+.global-nav__link:hover {
+  font-weight: bold;
+}
+/* 讓電腦版桌布顯示 */
+.global-nav__list--hidden {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.global-nav__toggle {
+  display: none;
+}
+@media (max-width: 40rem) {
+  .global-nav__list--hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .global-nav__toggle {
+    display: grid;
+    justify-self: end;
+    align-self: center;
+
+    position: absolute;
+    z-index: 2;
+
+    border: none;
+    background-color: transparent;
+  }
+
+  .global-nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: white;
+  }
+  .global-nav__item:hover {
+    font-weight: bold;
+  }
+  .global-nav__link {
+    font-size: 1.1rem;
+
+    color: #4923f4;
+  }
+  .global-nav__toggle-icon {
+    z-index: 2;
+
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .global-nav__list {
+    transition: transform 0.3s ease;
+  }
+}

@@ -1,0 +1,32 @@
+.contact__info__item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 15px;
+
+  padding: 3px 0;
+
+  font-size: 0.8rem;
+}
+.contact__info__icon {
+  grid-column: span 1;
+
+  width: 25px;
+  height: 25px;
+}
+.contact__info__font {
+  grid-column: span 1;
+}
+.contact__info__name {
+  grid-column: span 2;
+  justify-self: start;
+
+  font-weight: bold;
+  font-size: 1rem;
+}
+.contact__info__content {
+  grid-column: span 2;
+  justify-self: start;
+
+  font-size: 0.8rem;
+}

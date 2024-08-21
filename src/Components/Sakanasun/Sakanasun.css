@@ -1,0 +1,91 @@
+.sakanasun {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10px;
+}
+.sakanasun__cover,
+.sakanasun__content {
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.sakanasun__overview {
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10px;
+
+  padding-bottom: 10px;
+}
+.sakanasun__businesscard,
+.sakanasun__poster,
+.sakanasun__package,
+.sakanasun__flyer {
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 20px;
+}
+.sakanasun__cover__img,
+.sakanasun__businesscard__img,
+.sakanasun__poster__img,
+.sakanasun__package__img,
+.sakanasun__flyer__img {
+  grid-column: span 1;
+
+  width: 95%;
+  height: 90%;
+  object-fit: cover;
+
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0 0 0 / 0.2);
+}
+.sakanasun__color {
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.sakanasun__color__img {
+  grid-column: span 1;
+
+  width: 80%;
+  height: 100%;
+  padding: 100px 0;
+}
+.sakanasun__businesscard__title,
+.sakanasun__poster__title,
+.sakanasun__package__title,
+.sakanasun__flyer__title {
+  padding-top: 30px;
+}
+.sakanasun__businesscard__description,
+.sakanasun__package__description,
+.sakanasun__flyer__description {
+  text-align: center;
+
+  padding: 0 100px;
+
+  color: darkgray;
+}
+@media (max-width: 70rem) {
+  .sakanasun__overview {
+    text-align: center;
+
+    padding: 0 20px;
+  }
+  .sakanasun__businesscard__description,
+  .sakanasun__package__description,
+  .sakanasun__flyer__description {
+    padding: 0 20px;
+  }
+}

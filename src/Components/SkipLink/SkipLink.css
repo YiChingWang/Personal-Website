@@ -1,0 +1,17 @@
+.skip-to-content-link {
+  position: fixed;
+  top: 0;
+  right: 45%;
+  padding: 10px;
+  margin: 0;
+  background-color: white;
+  color: blue;
+  transition: opacity 0.3s;
+  opacity: 0;
+  font: inherit;
+  z-index: 1000;
+}
+
+.skip-to-content-link:focus {
+  opacity: 1;
+}

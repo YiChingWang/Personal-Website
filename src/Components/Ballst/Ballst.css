@@ -1,0 +1,248 @@
+.Ballst {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+
+  padding: 0 0 50px 0;
+}
+.Ballst__cover {
+  grid-column: span 2;
+  justify-self: center;
+  align-self: center;
+
+  width: 95%;
+  height: 90%;
+  object-fit: cover;
+
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0 0 0 / 0.2);
+}
+.Ballst__overview {
+  grid-column: span 2;
+  grid-template-columns: 50% 50%;
+  display: grid;
+  column-gap: 20px;
+
+  padding: 0 100px;
+}
+.Ballst__category {
+  grid-column: span 2;
+}
+.Ballst__intro {
+  grid-column: span 1;
+  justify-self: end;
+  align-self: start;
+}
+.Ballst__profile {
+  grid-column: span 1;
+  justify-self: center;
+  align-self: center;
+}
+.Ballst__role__list {
+  grid-column: span 1;
+}
+.Ballst__content {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+
+  padding: 10px 100px;
+}
+/* design process */
+.Ballst__designprocess {
+  grid-column: span 2;
+}
+.Ballst__designprocess__img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+
+  padding: auto;
+}
+/* problem and challenge */
+.Ballst__problemschallenges,
+.Ballst__understanding {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+.Ballst__problemsChallenges__item,
+.Ballst__keyinsight--item {
+  grid-column: span 1;
+}
+.Ballst__problemsChallenges__item--title {
+  padding-bottom: 10px;
+}
+.Ballst__problemsChallenges__item--content,
+.Ballst__understandig__description,
+.Ballst__interview__content,
+.Ballst__data__content,
+.Ballst__interview__results__item--content,
+.Ballst__data__results__item--content,
+.Ballst__ideation__text,
+.Ballst__nextstep__item--content,
+.Ballst__reflection__item--content {
+  color: darkgray;
+}
+/* understanding */
+.Ballst__understanding__img {
+  grid-column: span 1;
+
+  width: 100%;
+  height: 100%;
+}
+.Ballst__keyinsight--list {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+
+  padding-left: 20px;
+
+  color: darkgray;
+}
+/* research */
+.Ballst__research,
+.Ballst__designgoal {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+}
+.Ballst__interview__img,
+.Ballst__data__img {
+  grid-column: span 1;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 0 200px;
+}
+.Ballst__interview__results,
+.Ballst__data__results {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+.Ballst__interview__results__item,
+.Ballst__data__results__item {
+  grid-column: span 2;
+}
+.Ballst__interview__results__item--title {
+  padding-bottom: 10px;
+}
+/* designgoal */
+.Ballst__designgoal__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+
+  padding-top: 10px;
+}
+.Ballst__designgoal__list__item--subtitle {
+  padding: 10px 0;
+}
+.Ballst__designgoal__list__item--sublist {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  padding-left: 20px;
+
+  color: darkgray;
+}
+/* define */
+.Ballst__define,
+.Ballst__ideation,
+.Ballst__hifidesign,
+.Ballst__nextstep,
+.Ballst__reflection {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.Ballst__define__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+.Ballst__define__list__item {
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  row-gap: 10px;
+}
+.Ballst__define__img {
+  width: 100%;
+  height: 100%;
+
+  padding: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0 0 0 / 0.2);
+}
+/* ideation */
+.Ballst__ideation__item {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.Ballst__ideation__img {
+  grid-column: span 1;
+
+  width: 100%;
+  height: 100%;
+}
+/* Hifidesign */
+.Ballst__hifidesign__img,
+.Ballst__hifidesign__img2 {
+  width: 100%;
+  height: 100%;
+}
+/* nextstep */
+.Ballst__nextstep__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.Ballst__nextstep__item--title {
+  padding-bottom: 10px;
+}
+/* reflection */
+.Ballst__reflection__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.Ballst__reflection__item--title {
+  padding-bottom: 10px;
+}
+
+@media (max-width: 70rem) {
+  .Ballst {
+    padding: 30px 10px;
+  }
+  .Ballst__overview {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+
+    padding: 0 20px;
+  }
+  .Ballst__category {
+    grid-column: span 1;
+  }
+  .Ballst__content {
+    padding: 0 20px;
+  }
+  .Ballst__define__list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .Ballst__data__img,
+  .Ballst__interview__img {
+    padding: 0;
+  }
+}

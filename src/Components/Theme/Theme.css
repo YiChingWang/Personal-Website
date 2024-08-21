@@ -1,0 +1,92 @@
+:root {
+  --darkmode-bg: black;
+  --darkmode-fg: aquamarine;
+  --darkmode-shadow: rgba(127, 255, 212, 0.281);
+  --darkmode-border: 2px solid var(--darkmode-fg);
+}
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+.themeIcon {
+  width: 25px;
+  height: 25px;
+}
+.dark-mode {
+  background-color: var(--darkmode-bg);
+  color: var(--darkmode-fg);
+}
+.dark-mode .panel,
+.dark-mode .card,
+.dark-mode .contact__content {
+  box-shadow: 0 4px 8px 0 var(--darkmode-shadow);
+}
+.dark-mode .header__container,
+.dark-mode .card,
+.dark-mode .contact__form {
+  background-color: var(--darkmode-bg);
+}
+.dark-mode .header__title,
+.dark-mode .global-nav__link,
+.dark-mode .About__title,
+.dark-mode .skills__title,
+.dark-mode .projects__title,
+.dark-mode .card__title,
+.dark-mode .card__category,
+.dark-mode .contact__title,
+.dark-mode .contact__info__title,
+.dark-mode .contact__info__content,
+.dark-mode .contact__info__name,
+.dark-mode .About__text,
+.dark-mode .form__success__message {
+  color: var(--darkmode-fg);
+}
+.dark-mode .About__button,
+.dark-mode .form__submit__button,
+.dark-mode .card__button,
+.dark-mode .button-link.card__button,
+.dark-mode .card__Link {
+  border: var(--darkmode-border);
+  background-color: transparent;
+  color: var(--darkmode-fg);
+}
+.dark-mode .About__button:hover,
+.dark-mode .form__submit__button:hover,
+.dark-mode .card__button:hover,
+.dark-mode .card__Link:hover {
+  background-color: var(--darkmode-fg);
+  color: var(--darkmode-bg);
+}
+.dark-mode .card__text,
+.dark-mode .Ballst__designgoal__description,
+.dark-mode .Ballst__define__list__item--title,
+.dark-mode .Ballst__ideation__text,
+.dark-mode .Ballst__hifidesign__description,
+.dark-mode .Ballst__role__list,
+.dark-mode .sakanasun__description,
+.dark-mode .sexyorsexual__description {
+  color: darkgray;
+}
+.dark-mode .form__input,
+.dark-mode .form__select,
+.dark-mode .form__textarea {
+  background-color: rgba(35, 35, 35, 0.737);
+  color: white;
+}
+.dark-mode .footer {
+  background-color: var(--darkmode-fg);
+  color: var(--darkmode-bg);
+}
+.dark-mode .footer__link {
+  color: var(--darkmode-bg);
+}
+.dark-mode .filter__button:hover {
+  border-bottom: var(--darkmode-border);
+}
+@media (max-width: 40rem) {
+  .dark-mode .global-nav__list {
+    background-color: var(--darkmode-fg);
+  }
+  .dark-mode .global-nav__link {
+    color: var(--darkmode-bg);
+  }
+}

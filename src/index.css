@@ -1,0 +1,27 @@
+/* 這邊只放全局樣式 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color-page-bg: white;
+  --color-page-text: black;
+  --color-header-text: black;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--color-page-bg);
+  color: var(--color-page-text);
+
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+#root {
+  height: 100%;
+}
