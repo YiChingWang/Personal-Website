@@ -5,7 +5,6 @@
   justify-items: center;
   gap: 20px;
 
-  height:85vh;
   padding: 70px 100px 70px 80px;
 }
 .About__img {
@@ -57,7 +56,6 @@
   .About {
     grid-template-columns: 1fr;
 
-    height:100vh;
     padding: 30px 50px;
   }
   .About__img {
