@@ -57,6 +57,7 @@
   .About {
     grid-template-columns: 1fr;
 
+    height:100vh;
     padding: 30px 50px;
   }
   .About__img {
