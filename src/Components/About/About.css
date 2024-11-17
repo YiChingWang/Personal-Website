@@ -56,7 +56,7 @@
   .About {
     grid-template-columns: 1fr;
 
-    padding: 60px 50px;
+    padding: 65px 50px;
   }
   .About__img {
     margin-bottom: 0;
