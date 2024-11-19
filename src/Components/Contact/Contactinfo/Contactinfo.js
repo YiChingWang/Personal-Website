@@ -20,7 +20,7 @@ const contactInfo = [
       dark: mailDarkIcon,
     },
     name: "Email",
-    content: "olliee0713@gmail.com",
+    content: "yichingwang0713@gmail.com",
   },
   {
     icons: {
