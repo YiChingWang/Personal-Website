@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
-  margin: 70px 320px;
+  margin: 170px 320px;
   padding: 30px;
 
   border-radius: 35px;
