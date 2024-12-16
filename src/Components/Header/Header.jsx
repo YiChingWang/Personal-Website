@@ -16,14 +16,13 @@ function Header() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    // 檢測瀏覽器並添加 "safari" class 到 <html>
     if (
       navigator.userAgent.includes("Safari") &&
       !navigator.userAgent.includes("Chrome")
     ) {
       document.documentElement.classList.add("safari");
     }
-    // 檢測 LinkedIn 瀏覽器
+
     if (navigator.userAgent.includes("LinkedIn")) {
       document.documentElement.classList.add("linkedin-browser");
     }

@@ -9,15 +9,15 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [
-        postcssGapProperties(), // 處理 gap 不兼容問題
+        postcssGapProperties(),
         autoprefixer({
-          grid: "autoplace", // 支持 IE 11 的 Grid
+          grid: "autoplace",
           overrideBrowserslist: ["last 2 versions", "IE 11"], // 明確指定兼容 IE
         }),
         postcssPresetEnv({
-          stage: 3, // 啟用現代 CSS 特性
+          stage: 3,
           features: {
-            "align-content": false, // 禁止 align-content
+            "align-content": false,
           },
         }),
       ],

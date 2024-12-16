@@ -1,7 +1,7 @@
 .header__container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto; /* 添加這行 */
+  grid-template-rows: auto;
 
   height: 60px;
 
@@ -10,7 +10,7 @@
 .header {
   grid-column: 1/4;
   display: grid;
-  grid-template-rows: auto 1fr; /* 添加這行 */
+  grid-template-rows: auto 1fr;
   grid-template-columns: 1fr;
 }
 .header__title {
@@ -32,7 +32,7 @@
 .header__nav {
   grid-column: 11/12;
   display: grid;
-  grid-template-rows: auto; /* 添加這行 */
+  grid-template-rows: auto;
   grid-template-columns: 1fr;
 
   background-color: inherit;
@@ -59,29 +59,12 @@
     padding-top: 5px;
   }
 }
-/* @media (max-width: 40rem) {
-  .header__theme {
-    padding-top: 8px;
-    grid-column: 10 / 12;
-    order: 0;
-    justify-self: end;
-
-    padding-right: 17px;
-  }
-
-  .header__nav {
-    grid-column: 12 / -1;
-    order: 1;
-
-    padding-right: 10px;
-  }
-} */
 
 @media (max-width: 40rem) {
   .header__theme {
     padding-top: 8px;
-    grid-column: 12/13; /* 確保開始和結束列用具體數字 */
-    margin-left: auto; /* 替代 justify-self: end */
+    grid-column: 12/13;
+    margin-left: auto;
     padding-right: 17px;
 
     align-self: center;
@@ -94,9 +77,9 @@
     padding-right: 10px;
   }
   .safari .header__nav {
-    padding-bottom: 25px; /* 只有 Safari 手機版才會套用 */
+    padding-bottom: 25px;
   }
   .linkedin-browser .header__nav {
-    padding-bottom: 25px; /* LinkedIn 瀏覽器專屬樣式 */
+    padding-bottom: 25px;
   }
 }
