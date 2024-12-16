@@ -6,7 +6,7 @@ import personalWebsite from "../../../assets/personalWebsite__cover.png";
 const cardlist = [
   {
     id: 1,
-    title: "letMeChat",
+    title: "LetMeChat.",
     imageUrl: letMeChat,
     alt: "letmeChat cover",
     text: "A time-limited hub for instant, meaningful, and impactful group connections.",
