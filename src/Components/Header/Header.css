@@ -1,6 +1,7 @@
 .header__container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto; /* 添加這行 */
 
   height: 60px;
 
@@ -9,6 +10,7 @@
 .header {
   grid-column: 1/4;
   display: grid;
+  grid-template-rows: auto; /* 添加這行 */
   grid-template-columns: 1fr;
 }
 .header__title {
@@ -30,6 +32,7 @@
 .header__nav {
   grid-column: 11/12;
   display: grid;
+  grid-template-rows: auto; /* 添加這行 */
   grid-template-columns: 1fr;
 
   background-color: inherit;

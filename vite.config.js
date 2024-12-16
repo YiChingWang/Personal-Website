@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import autoprefixer from "autoprefixer";
-import postcssFlexbugsFixes from "postcss-flexbugs-fixes";
+import postcssGapProperties from "postcss-gap-properties";
 import postcssPresetEnv from "postcss-preset-env";
 
 export default defineConfig({
@@ -9,14 +9,15 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [
+        postcssGapProperties(), // 處理 gap 不兼容問題
         autoprefixer({
-          grid: "autoplace", // 強制支援舊版 CSS Grid
+          grid: "autoplace", // 支持 IE 11 的 Grid
+          overrideBrowserslist: ["last 2 versions", "IE 11"], // 明確指定兼容 IE
         }),
-        postcssFlexbugsFixes(), // 修復 Flexbox 和 Grid 的 bug
         postcssPresetEnv({
-          stage: 3, // 啟用現代 CSS 功能並兼容舊版
+          stage: 3, // 啟用現代 CSS 特性
           features: {
-            "align-content": false, // 處理 align-items/align-self 問題
+            "align-content": false, // 禁止 align-content
           },
         }),
       ],
