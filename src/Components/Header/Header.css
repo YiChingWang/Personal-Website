@@ -79,13 +79,13 @@
 @media (max-width: 40rem) {
   .header__theme {
     padding-top: 8px;
-    grid-column: 10 / 12; /* 確保開始和結束列用具體數字 */
+    grid-column: 12/13; /* 確保開始和結束列用具體數字 */
     margin-left: auto; /* 替代 justify-self: end */
     padding-right: 17px;
   }
 
   .header__nav {
-    grid-column: 12 / 13; /* 避免使用 -1 */
+    grid-column: 11/12; /* 避免使用 -1 */
     padding-right: 10px;
     /* 使用其他方法改變順序，避免依賴 order */
   }
