@@ -96,4 +96,7 @@
   .safari .header__nav {
     padding-bottom: 25px; /* 只有 Safari 手機版才會套用 */
   }
+  .linkedin-browser .header__nav {
+    padding-bottom: 50px; /* LinkedIn 瀏覽器專屬樣式 */
+  }
 }

@@ -23,6 +23,10 @@ function Header() {
     ) {
       document.documentElement.classList.add("safari");
     }
+    // 檢測 LinkedIn 瀏覽器
+    if (navigator.userAgent.includes("LinkedIn")) {
+      document.documentElement.classList.add("linkedin-browser");
+    }
   }, []);
 
   useEffect(() => {
