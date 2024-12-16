@@ -6,7 +6,11 @@ export default defineConfig({
   plugins: [react()],
   css: {
     postcss: {
-      plugins: [autoprefixer()],
+      plugins: [
+        autoprefixer({
+          grid: "autoplace", // 強制支援舊版 CSS Grid
+        }),
+      ],
     },
   },
 });
