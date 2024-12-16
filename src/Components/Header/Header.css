@@ -76,6 +76,7 @@
     padding-right: 10px;
   }
 } */
+
 @media (max-width: 40rem) {
   .header__theme {
     padding-top: 8px;
@@ -93,9 +94,16 @@
     padding-right: 10px;
   }
 }
-/* Safari 獨有樣式 */
-@supports (-webkit-touch-callout: none) {
+
+@media not all and (min-resolution: 0.001dpcm) and (min--moz-device-pixel-ratio: 0) and (max-width: 40rem) {
   .header__nav {
-    padding-bottom: 25px; /* 添加 Safari 專屬的 padding */
+    padding-bottom: 25px; /* Safari 獨有 */
   }
 }
+
+/* Safari 獨有樣式 */
+/* @supports (-webkit-touch-callout: none) {
+  .header__nav {
+    padding-bottom: 25px; 添加 Safari 專屬的 padding
+  }
+} */
