@@ -78,7 +78,7 @@
 } */
 @media (max-width: 40rem) {
   .header__theme {
-    padding-top: 8px;
+    /* padding-top: 8px; */
     grid-column: 12/13; /* 確保開始和結束列用具體數字 */
     margin-left: auto; /* 替代 justify-self: end */
     padding-right: 17px;
