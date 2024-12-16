@@ -2,7 +2,7 @@ import ballstcover from "../../../assets/Ballst__cover.png";
 import sakanasuncover from "../../../assets/Sakanasun__cover.png";
 import sexysexualcover from "../../../assets/SexyOrSexual__cover.png";
 import echoeyescover from "../../../assets/Echoeyes__cover.png";
-import letMeChat from "../../../assets/letMeChat__cover.png";
+import letMeChat from "../../../assets/letmeChat__cover.png";
 import personalWebsite from "../../../assets/personalWebsite__cover.png";
 
 const cardlist = [
