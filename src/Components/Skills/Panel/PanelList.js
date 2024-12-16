@@ -12,6 +12,10 @@ import gitIcon from "../../../assets/Skills__icon__git.png";
 import userIcon from "../../../assets/Skills__icon__user.png";
 import xdIcon from "../../../assets/Skills__icon__xd.png";
 import flaskIcon from "../../../assets/Skills__icon__flask.png";
+import databaseIcon from "../../../assets/Skills__icon__database.png";
+import expressIcon from "../../../assets/Skills__icon__express.png";
+import nextjsIcon from "../../../assets/Skills__icon__nextjs.png";
+import tailwindCSSIcon from "../../../assets/Skills__icon__tailwindCSS.png";
 
 const panels = [
   {
@@ -77,41 +81,78 @@ const panels = [
     alt: "flask img",
     text: "Flask",
   },
+
   {
     id: 10,
-    title: "Exploring Nature",
-    imageUrl: userIcon,
-    alt: "user img",
-    text: "User research",
-  },
-  {
-    id: 11,
     title: "Exploring Nature",
     imageUrl: figmaIcon,
     alt: "figma img",
     text: "Figma",
   },
+
+  {
+    id: 11,
+    title: "Exploring Nature",
+    imageUrl: databaseIcon,
+    alt: "MongoDB img",
+    text: "MongoDB",
+  },
   {
     id: 12,
     title: "Exploring Nature",
-    imageUrl: xdIcon,
-    alt: "xd img",
-    text: "Adobe XD",
+    imageUrl: databaseIcon,
+    alt: "MySQL img",
+    text: "MySQL",
   },
   {
     id: 13,
     title: "Exploring Nature",
-    imageUrl: illustratorIcon,
-    alt: "illustration img",
-    text: "illustrator",
+    imageUrl: expressIcon,
+    alt: "Express img",
+    text: "Express.js",
   },
   {
     id: 14,
     title: "Exploring Nature",
-    imageUrl: photoshopIcon,
-    alt: "photoshop img",
-    text: "photoshop",
+    imageUrl: nextjsIcon,
+    alt: "nextjs img",
+    text: "Next.js",
   },
+  {
+    id: 15,
+    title: "Exploring Nature",
+    imageUrl: tailwindCSSIcon,
+    alt: "tailwindCSS img",
+    text: "TailwindCSS",
+  },
+  // {
+  //   id: 13,
+  //   title: "Exploring Nature",
+  //   imageUrl: illustratorIcon,
+  //   alt: "illustration img",
+  //   text: "illustrator",
+  // },
+  // {
+  //   id: 14,
+  //   title: "Exploring Nature",
+  //   imageUrl: photoshopIcon,
+  //   alt: "photoshop img",
+  //   text: "photoshop",
+  // },
+  // {
+  //   id: 10,
+  //   title: "Exploring Nature",
+  //   imageUrl: userIcon,
+  //   alt: "user img",
+  //   text: "User research",
+  // },
+  // {
+  //   id: 11,
+  //   title: "Exploring Nature",
+  //   imageUrl: xdIcon,
+  //   alt: "xd img",
+  //   text: "Adobe XD",
+  // },
 ];
 
 export default panels;

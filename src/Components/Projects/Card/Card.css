@@ -3,7 +3,7 @@
   grid-template-columns: 1fr;
   row-gap: 20px;
 
-  padding: 50px 200px;
+  padding: 33px 200px;
 }
 .card {
   grid-area: span 1;

@@ -9,7 +9,7 @@ const footer = [
   },
   {
     name: "Github",
-    href: "https://github.com/dashboard",
+    href: "https://github.com/YiChingWang",
   },
 ];
 export default footer;
