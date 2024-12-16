@@ -12,10 +12,11 @@ function Project({ setPage }) {
   const [selectedCategory, setSelectedCategory] = useState("All Category");
   const categories = [
     "All Category",
-    "User Research",
-    "Machine Learning",
-    "Graphic Design",
     "Full Stack",
+    "Front-end Development",
+    "User Research",
+    // "Machine Learning",
+    // "Graphic Design",
   ];
   const filteredCardList =
     selectedCategory === "All Category"
