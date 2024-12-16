@@ -2,6 +2,7 @@
   "name": "components",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -27,6 +28,7 @@
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not dead"
+    "not dead",
+    "IE 11"
   ]
 }
