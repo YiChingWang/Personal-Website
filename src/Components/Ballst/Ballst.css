@@ -246,10 +246,3 @@
     padding: 0;
   }
 }
-@supports (-webkit-appearance: none) {
-  .Ballst {
-    display: -webkit-box; /* Safari 舊版 */
-    display: -ms-grid; /* IE 11 */
-    display: grid;
-  }
-}
