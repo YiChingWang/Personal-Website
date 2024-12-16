@@ -2,12 +2,12 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   row-gap: 20px;
-  column-gap:10px;
+  column-gap: 10px;
   justify-items: center;
   align-items: center;
 
-  padding: 65px 50px;
-  margin: 0 300px;
+  padding: 50px 50px;
+  margin: 0 200px;
 }
 .panel {
   grid-column: span 1;
@@ -16,8 +16,8 @@
   align-items: center;
   justify-items: center;
 
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
 
   border-radius: 35px;
   box-shadow: 0 4px 8px 0 rgba(0 0 0 / 0.2);
@@ -42,18 +42,12 @@
   font-weight: bold;
   font-size: 1.1rem;
 }
-@media (max-width: 100rem) {
+@media (max-width: 80rem) {
   .panels {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-@media (max-width: 85rem) {
-  .panels {
-    grid-template-columns: repeat(3, 1fr);
 
-    margin: 0 200px;
-  }
-}
 @media (max-width: 65rem) {
   .panels {
     grid-template-columns: repeat(3, 1fr);
