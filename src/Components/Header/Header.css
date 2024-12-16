@@ -93,10 +93,7 @@
 
     padding-right: 10px;
   }
-}
-
-.safari .header__nav {
-  @media (max-width: 40rem) {
+  .safari .header__nav {
     padding-bottom: 25px; /* 只有 Safari 手機版才會套用 */
   }
 }
