@@ -5,7 +5,7 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div>
+    <div className="skills">
       <SkipLink />
       <h1 className="skills__title">My Skills</h1>
       <div className="panels" id="main">
