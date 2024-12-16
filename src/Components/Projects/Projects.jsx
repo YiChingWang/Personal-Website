@@ -15,6 +15,7 @@ function Project({ setPage }) {
     "User Research",
     "Machine Learning",
     "Graphic Design",
+    "Full Stack",
   ];
   const filteredCardList =
     selectedCategory === "All Category"
