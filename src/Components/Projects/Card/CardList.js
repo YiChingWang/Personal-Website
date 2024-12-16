@@ -35,7 +35,7 @@ const cardlist = [
   },
   {
     id: 3,
-    title: "Ballst Application",
+    title: "Ballst Mobile Application",
     imageUrl: ballstcover,
     alt: "ballst cover",
     text: "A social platform for ball games’ lovers to find suitable sports’ venues and accompanies.",
