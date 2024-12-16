@@ -95,15 +95,8 @@
   }
 }
 
-/* @media not all and (min-resolution: 0.001dpcm) and (min--moz-device-pixel-ratio: 0) and (max-width: 40rem) {
-  .header__nav {
-    padding-bottom: 25px; Safari 獨有
-  }
-} */
-@supports (-webkit-touch-callout: none) {
+.safari .header__nav {
   @media (max-width: 40rem) {
-    .header__nav {
-      padding-bottom: 25px; /* Safari 手機版 */
-    }
+    padding-bottom: 25px; /* 只有 Safari 手機版才會套用 */
   }
 }
