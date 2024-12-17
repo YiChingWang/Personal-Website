@@ -38,6 +38,15 @@ To run this project locally, follow these steps:
 
     Your site will be available at http://localhost:3000 (or  
     another port specified in your configuration).
+    
+6. **Access the Live Application:**
+   
+   You can also directly open the application here:
+   
+   ```bash
+[   https://letme-chat-full-stack-application.vercel.app/](https://personal-website-new-xi.vercel.app/)
+   ```
+
 
 ## Technologies Used
 
