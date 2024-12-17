@@ -43,7 +43,7 @@ To run this project locally, follow these steps:
    
    You can also directly open the application here:
    
-[https://personal-website-new-xi.vercel.app/](https://personal-website-new-xi.vercel.app/)
+   [https://personal-website-new-xi.vercel.app/](https://personal-website-new-xi.vercel.app/)
 
 
 ## Technologies Used
