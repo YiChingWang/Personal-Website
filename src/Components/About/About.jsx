@@ -22,6 +22,12 @@ function Home({ onContactClick }) {
           <Button onClick={onContactClick} className="About__button">
             Contact me !
           </Button>
+          <a
+            href="https://drive.google.com/file/d/1AaslyUjsaiVsroYBM4eB6PLLZbkafYyA/view?usp=sharing"
+            className="About__cv__button"
+          >
+            Download CV
+          </a>
         </div>
       </div>
     </div>
