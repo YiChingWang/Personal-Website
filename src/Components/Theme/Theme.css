@@ -108,4 +108,8 @@ body {
   .dark-mode .global-nav__link {
     color: var(--darkmode-bg);
   }
+  .dark-mode .filter__mobile__dropdown__item {
+    background-color: #232323;
+    color: #a9a7a7;
+  }
 }
