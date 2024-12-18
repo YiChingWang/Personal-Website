@@ -79,8 +79,27 @@ body {
 .dark-mode .footer__link {
   color: var(--darkmode-bg);
 }
+
+.dark-mode .filter__selector {
+  background-color: #171717;
+}
+.dark-mode .filter__button {
+  background-color: #232323;
+  color: #a9a7a7;
+}
 .dark-mode .filter__button:hover {
-  border-bottom: var(--darkmode-border);
+  background-color: var(--darkmode-fg);
+  color: var(--darkmode-bg);
+}
+
+.dark-mode .About__cv__button {
+  background-color: var(--darkmode-fg);
+  color: var(--darkmode-bg);
+}
+.dark-mode .About__cv__button:hover {
+  border: var(--darkmode-border);
+  background-color: transparent;
+  color: var(--darkmode-fg);
 }
 @media (max-width: 40rem) {
   .dark-mode .global-nav__list {
